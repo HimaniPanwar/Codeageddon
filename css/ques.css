@@ -1,40 +1,18 @@
 *{
 	box-sizing: border-box;
 }
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}
 
 body{
 	margin: 0px;
-}
-img#img1{
-	width: 225px;
-	height: 700px;
-	left: 0px;
-	top: 0px;
-	bottom: 0px;
-	position: fixed;
-	z-index: -1;
-}
-img#img2{
-	width: 225px;
-	height: 700px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
-	z-index: -1;
-	float: right;
-	position: fixed;
+	 background:url('../img/dash.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  overflow: auto;
 }
 .box{
-	background-color: black;
-	width: 900px;
-	height: 1000px;
 	margin-left: 225px;
 	margin-top: 0px;
 	position: relative;
@@ -53,6 +31,10 @@ img#img2{
 .link:hover{
 	color: white;
 	font-weight: bold;
+}
+.glyphicon-off:before {
+    content: "\e017";
+    margin-left: -1rem;
 }
 .glyphicon:hover{
 	color: white;
@@ -89,11 +71,12 @@ img#img2{
 h3{
 	text-align: center;
 	padding-bottom: 0px;
-	font-size: 35px;
+	font-size:36px;
 	color: white;
 	opacity: 0.8;
 	font-family: 'Libre Baskerville', serif;
 	letter-spacing: 2px;
+	margin-left: -18rem;
 }
 h5{
 	color: white;
@@ -101,6 +84,7 @@ h5{
 	font-size: 25px;
 	font-family: 'Varela Round',sans-serif;
 	opacity: 0.6;
+	margin-left: -18rem;
 }
 .pager{
 	margin: 60px;
@@ -109,6 +93,7 @@ h5{
 hr{
 	width: 38%;
 	height: 8px;
+	margin-left: 26rem;
 }
 .btn {
   cursor: pointer;
